@@ -16,7 +16,7 @@ public class A extends Actor
     {
         if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(-90);
-        move(4);
+        move(5);
         }
         // Add your action code here.
     }    
