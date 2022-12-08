@@ -19,9 +19,5 @@ public class MyWorld extends World
 
 
         super(1700, 900, 1);
-<<<<<<< HEAD
-        
-=======
->>>>>>> 40f5fcae515939bb703c70a73203d104e334bfed
     }
 }

@@ -1,26 +1,15 @@
 #Greenfoot project file
 class.MyWorld.image=publicdomainq-0024400cjx.jpg
-<<<<<<< HEAD
-class.farmer.image=war_noumin_ikki\ (1).png
-class.\u30B7\u30E3\u30AE\u69D8.image=\u30B7\u30E3\u30AE\u69D8.png
-=======
 class.farmer.image=war_noumin_ikki-removebg-preview.png
 class.murabito.image=komebukuro_man-removebg-preview\ (1).png
 class.\u30B7\u30E3\u30AE\u69D8.image=seikimatsu_man-removebg-preview.png
->>>>>>> 40f5fcae515939bb703c70a73203d104e334bfed
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=1056
 package.numDependencies=0
-package.numTargets=3
-=======
-height=945
-package.numDependencies=0
 package.numTargets=4
->>>>>>> 40f5fcae515939bb703c70a73203d104e334bfed
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -56,8 +45,6 @@ target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
-<<<<<<< HEAD
-=======
 target4.height=50
 target4.name=murabito
 target4.showInterface=false
@@ -65,14 +52,8 @@ target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
->>>>>>> 40f5fcae515939bb703c70a73203d104e334bfed
 version=3.0.0
-width=1348
+width=1936
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
 xPosition=0
-yPosition=36
-=======
-xPosition=369
-yPosition=91
->>>>>>> 40f5fcae515939bb703c70a73203d104e334bfed
+yPosition=0
