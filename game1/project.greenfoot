@@ -1,10 +1,18 @@
 #Greenfoot project file
 class.A.image=tux.png
+<<<<<<< HEAD
 class.C.image=stawberry.png
 class.MyWorld.image=seikimatu.png
 class.farmer.image=war_noumin_ikki\ (1).png
 class.ktr.image=stawberry.png
 class.murabito.image=komebukuro_man-removebg-preview\ (1).png
+=======
+class.MyWorld.image=publicdomainq-0024400cjx.jpg
+class.aaaaa.image=robot.png
+class.farmer.image=war_noumin_ikki\ (1).png
+class.ktr.image=stawberry.png
+class.\u30B7\u30E3\u30AE\u69D8.image=\u30B7\u30E3\u30AE\u69D8.png
+>>>>>>> 75eb466cb7e3eeffded04ef8f58a4656147eaccd
 dependency1.from=MyWorld
 dependency1.to=\u30B7\u30E3\u30AE\u69D8
 dependency1.type=UsesDependency
