@@ -1,9 +1,10 @@
 #Greenfoot project file
 class.A.image=tux.png
-class.MyWorld.image=seikimatu.png
+class.MyWorld.image=publicdomainq-0024400cjx.jpg
 class.aaaaa.image=robot.png
 class.farmer.image=war_noumin_ikki\ (1).png
 class.ktr.image=stawberry.png
+class.\u30B7\u30E3\u30AE\u69D8.image=\u30B7\u30E3\u30AE\u69D8.png
 dependency1.from=MyWorld
 dependency1.to=\u30B7\u30E3\u30AE\u69D8
 dependency1.type=UsesDependency
