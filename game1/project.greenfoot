@@ -3,11 +3,33 @@ class.A.image=tux.png
 class.C.image=ladybug1.png
 class.aaaaa.image=robot.png
 class.ktr.image=stawberry.png
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
 height=1047
+=======
+<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=581
+=======
+editor.fx.0.height=737
+editor.fx.0.width=814
+<<<<<<< HEAD
+editor.fx.0.x=360
+editor.fx.0.y=26
+height=585
+>>>>>>> 82dd511651d30bfb1bfa9c32ee3a053054cfc40c
+=======
+editor.fx.0.x=227
+editor.fx.0.y=96
+height=400
+>>>>>>> 32621817d3c292334af918bc2f5f9e3786d338f0
+>>>>>>> 4b2b7bd02c616c5357555c907f3cc564b8f1e11c
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -18,9 +40,13 @@ publish.shortDesc=
 publish.tags=
 publish.title=
 publish.url=
-readme.height=58
+readme.height=60
 readme.name=@README
-readme.width=47
+<<<<<<< HEAD
+readme.width=48
+=======
+readme.width=49
+>>>>>>> 82dd511651d30bfb1bfa9c32ee3a053054cfc40c
 readme.x=10
 readme.y=10
 simulation.speed=50
@@ -60,7 +86,26 @@ target5.width=80
 target5.x=0
 target5.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=974
 world.lastInstantiated=MyWorld
 xPosition=953
 yPosition=0
+=======
+<<<<<<< HEAD
+width=824
+world.lastInstantiated=MyWorld
+<<<<<<< HEAD
+xPosition=190
+yPosition=92
+=======
+xPosition=240
+yPosition=164
+>>>>>>> 82dd511651d30bfb1bfa9c32ee3a053054cfc40c
+=======
+width=746
+world.lastInstantiated=MyWorld
+xPosition=1001
+yPosition=333
+>>>>>>> 32621817d3c292334af918bc2f5f9e3786d338f0
+>>>>>>> 4b2b7bd02c616c5357555c907f3cc564b8f1e11c
