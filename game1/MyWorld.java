@@ -16,6 +16,24 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1700, 900, 1);
+        super(1650, 900, 1);
+    }
+    public void act()
+    {
+       //noumin
+       if( Greenfoot.isKeyDown( "1" ) ){
+        World game1 = new stage1();
+        Greenfoot.setWorld( game1 );
+        }
+       //murabito
+       if( Greenfoot.isKeyDown( "2" ) ){
+        World game2 = new stage2();
+        Greenfoot.setWorld( game2 );
+        }
+       //shagi
+       if( Greenfoot.isKeyDown( "3" ) ){
+        World game3 = new stage2();
+        Greenfoot.setWorld( game3 );
+        }
     }
 }
