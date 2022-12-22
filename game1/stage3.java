@@ -17,5 +17,6 @@ public class stage3 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1650, 900, 1); 
+        addObject( new syagi(), 825, 450 );
     }
 }
