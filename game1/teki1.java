@@ -14,22 +14,18 @@ public class teki1 extends Actor
      */
     public void act() 
     {
+      int motime=1;
       int A = 0;
       int B = 360;
       int C = A + (int)(Math.random()*((B-A)+1));
       setRotation(C);
-      for(int i=0;i<3;i++){    
-          move(5);
+      for(int cnt=0; cnt<10000000; cnt++){
+          if(motime%250001==0){
+              move(1);
+              motime=1;
+            }
+          motime++;
         }
       
-        
-        
-      Actor actor = getOneIntersectingObject( teki1.class );
-      if( actor != null ){
-    
-          getWorld().showText( "GAME OVER", 100, 50 );
-          Greenfoot.stop();
-          
-          }
     }    
 }

@@ -14,6 +14,17 @@ public class teki2 extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+      int motime=1;
+      int A = 0;
+      int B = 360;
+      int C = A + (int)(Math.random()*((B-A)+1));
+      setRotation(C);
+      for(int cnt=0; cnt<10000000; cnt++){
+          if(motime%250001==0){
+              move(1);
+              motime=1;
+            }
+          motime++;
+        }// Add your action code here.
     }    
 }
