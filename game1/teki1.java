@@ -27,8 +27,7 @@ public class teki1 extends Actor
           motime++;
         }
       
-<<<<<<< HEAD
-=======
+
         
         
       /*Actor actor = getOneIntersectingObject( teki1.class );
@@ -38,6 +37,5 @@ public class teki1 extends Actor
           Greenfoot.stop();
           
           }*/
->>>>>>> e1495534db8998a15ed4e5f84b93e604d8358259
     }    
 }
