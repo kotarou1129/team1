@@ -24,12 +24,12 @@ public class teki1 extends Actor
       
         
         
-      Actor actor = getOneIntersectingObject( teki1.class );
+      /*Actor actor = getOneIntersectingObject( teki1.class );
       if( actor != null ){
     
           getWorld().showText( "GAME OVER", 100, 50 );
           Greenfoot.stop();
           
-          }
+          }*/
     }    
 }
