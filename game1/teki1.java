@@ -16,7 +16,7 @@ public class teki1 extends Actor
     
     public void act() 
     {  
-      move(2);
+      move(5);
       if(cnt%40==0){
               int A = 0;
               int B = 360;
@@ -25,5 +25,6 @@ public class teki1 extends Actor
               cnt=1;
       }
       cnt++;
+      
     }    
 }
