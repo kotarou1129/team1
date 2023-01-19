@@ -15,7 +15,8 @@ public class MyWorld extends World
      */
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels
+
         super(1650, 900, 1);
     }
     public void act()
@@ -32,8 +33,9 @@ public class MyWorld extends World
         }
        //shagi
        if( Greenfoot.isKeyDown( "3" ) ){
-        World game3 = new stage2();
+        World game3 = new stage3();
         Greenfoot.setWorld( game3 );
         }
+
     }
 }

@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class シャギ様 here.
+ * Write a description of class syagi here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class シャギ様 extends Actor
+public class syagi extends Actor
 {
     /**
-     * Act - do whatever the シャギ様 wants to do. This method is called whenever
+     * Act - do whatever the syagi wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
