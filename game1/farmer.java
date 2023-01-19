@@ -30,5 +30,14 @@ public class farmer extends Actor
             setRotation(180);
             move(6);
         }// Add your action code here.
+        
+        Actor teki1 = getOneIntersectingObject( teki1.class );
+            if( teki1 != null ){
+                Greenfoot.stop();
+            }
+        Actor teki2 = getOneIntersectingObject( teki2.class );
+            if( teki2 != null ){
+                Greenfoot.stop();
+            } 
     }    
 }
