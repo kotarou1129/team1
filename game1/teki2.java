@@ -16,7 +16,7 @@ public class teki2 extends Actor
     static int  cnt=0;
     public void act() 
     {
-      move(3);
+      move(5);
       if(cnt%40==0){
               int A = 0;
               int B = 360;

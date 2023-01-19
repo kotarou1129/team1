@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class stage2 extends World
 {
-
+    private int time = 1000;
     /**
      * Constructor for objects of class stage2.
      * 
@@ -40,6 +40,15 @@ public class stage2 extends World
             int y = A + (int)(Math.random()*((B-A)+1));
            addObject( new teki2(), x, y );
            
+        }
+    }
+    public void act()
+    {
+        time--;
+        showText( ""+time, 825, 450 );
+        if(time == 0){
+            showText( "TIME OVER", 400, 200 );            
+            Greenfoot.stop();
         }
     }
     
