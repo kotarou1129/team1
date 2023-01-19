@@ -11,8 +11,6 @@ public class MyWorld extends World
 
     public int click_flag = 0;
 
-    private int timecount = 1000;
-
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -53,12 +51,7 @@ public class MyWorld extends World
         World game3 = new stage3();
         Greenfoot.setWorld( game3 );
         }
-       timecount--;
-        showText( ""+timecount, 825, 450 );
-        if(timecount == 0){
-            showText( "TIME OVER", 400, 200 );            
-            Greenfoot.stop();
-        }
+       
     }
     
     

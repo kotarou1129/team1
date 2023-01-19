@@ -53,7 +53,10 @@ public class stage1 extends World
         time--;
         showText( ""+time, 825, 450 );
         if(time == 0){
-            showText( "TIME OVER", 400, 200 );            
+            GreenfootImage title = new GreenfootImage("Stage1", 80, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(title, ((getWidth()-title.getWidth())/2), ((getHeight()-title.getHeight())/2)-350);            
+            GreenfootImage endtitle = new GreenfootImage("Stage1", 300, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(endtitle, ((getWidth()-endtitle.getWidth())/2), ((getHeight()-endtitle.getHeight())/2));
             Greenfoot.stop();
         }
     }
