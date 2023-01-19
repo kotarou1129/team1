@@ -53,7 +53,9 @@ public class stage1 extends World
         time--;
         showText( ""+time, 825, 450 );
         if(time == 0){
-            showText( "TIME OVER", 400, 200 );            
+            showText( "ステージ1", 825, 200 );
+            showText( "完", 825, 450 );
+            
             Greenfoot.stop();
         }
     }
