@@ -25,6 +25,7 @@ public class stage1 extends World
         addObject( new teki2(), 900, 260 );
         addObject( new teki2(), 1400, 500 );
         addObject( new teki2(), 500, 790 );
+        addObject( new teki2(), 500, 790 );
         /*for(int i=0;i<4;i++){
             int A = 0;
             int B = 1650;
