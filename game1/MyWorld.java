@@ -36,7 +36,7 @@ public class MyWorld extends World
         World game3 = new stage3();
         Greenfoot.setWorld( game3 );
         }
-        timecount--;
+       timecount--;
         showText( ""+timecount, 825, 450 );
         if(timecount == 0){
             showText( "TIME OVER", 400, 200 );            
