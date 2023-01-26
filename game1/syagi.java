@@ -33,10 +33,14 @@ public class syagi extends Actor
         // Add your action code here.
         Actor teki1 = getOneIntersectingObject( teki1.class );
             if( teki1 != null ){
+                GreenfootImage endtitle = new GreenfootImage("終焉", 300, Color.RED, new Color(0, 0, 0, 0));
+                getWorld().getBackground().drawImage(endtitle, ((getWorld().getWidth()-endtitle.getWidth())/2), ((getWorld().getHeight()-endtitle.getHeight())/2));
                 Greenfoot.stop();
             } 
         Actor teki2 = getOneIntersectingObject( teki2.class );
             if( teki2 != null ){
+                GreenfootImage endtitle = new GreenfootImage("終焉", 300, Color.RED, new Color(0, 0, 0, 0));
+                getWorld().getBackground().drawImage(endtitle, ((getWorld().getWidth()-endtitle.getWidth())/2), ((getWorld().getHeight()-endtitle.getHeight())/2));
                 Greenfoot.stop();
             } 
     }    
