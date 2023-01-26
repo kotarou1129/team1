@@ -45,14 +45,22 @@ public class stage2 extends World
     public void act()
     {
         time--;
+
+        showText( ""+time, 825, 450 );
+        if(time == 000){
+            GreenfootImage title = new GreenfootImage("ステージ２", 120, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(title, (getWidth()-title.getWidth())/2, 550);
+            GreenfootImage title2 = new GreenfootImage("完", 300, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(title2, 710, (getHeight()-title.getHeight())/4);
+            
+            Greenfoot.stop();
+
         showText( ""+time, 100, 100 );
         if(time == 0){
-            GreenfootImage title = new GreenfootImage("Stage2", 80, Color.RED, new Color(0, 0, 0, 0));
-            getBackground().drawImage(title, ((getWidth()-title.getWidth())/2), ((getHeight()-title.getHeight())/2)-350);            
-            GreenfootImage endtitle = new GreenfootImage("完", 300, Color.RED, new Color(0, 0, 0, 0));
-            getBackground().drawImage(endtitle, ((getWidth()-endtitle.getWidth())/2), ((getHeight()-endtitle.getHeight())/2));
             Greenfoot.stop();            
+
         }
     }
     
+ }
 }

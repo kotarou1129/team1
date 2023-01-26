@@ -36,9 +36,28 @@ public class MyWorld extends World
             }
        } 
 
+
        //noumin
+<<<<<<< HEAD
        
        
+=======
+       if( Greenfoot.isKeyDown( "1" ) ){
+        World game1 = new stage1();
+        Greenfoot.setWorld( game1 );
+        }
+       //murabito
+       if( Greenfoot.isKeyDown( "2" ) ){
+        World game2 = new stage2();
+        Greenfoot.setWorld( game2 );
+        }
+       //shagi
+       if( Greenfoot.isKeyDown( "3" ) ){
+        World game3 = new stage3();
+        Greenfoot.setWorld( game3 );
+        }
+
+>>>>>>> 2e9095b9f4db6a19a4b253c1b1f9e5bf0dc12ad7
     }
     
     
