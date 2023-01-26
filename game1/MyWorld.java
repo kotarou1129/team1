@@ -11,8 +11,6 @@ public class MyWorld extends World
 
     public int click_flag = 0;
 
-    
-
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -37,6 +35,7 @@ public class MyWorld extends World
                Greenfoot.setWorld( select1 );
             }
        } 
+
 
        //noumin
        if( Greenfoot.isKeyDown( "1" ) ){

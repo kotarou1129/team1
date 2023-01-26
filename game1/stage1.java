@@ -51,6 +51,7 @@ public class stage1 extends World
     public void act()
     {
         time--;
+
         showText( ""+time, 825, 450 );
         if(time == 000){
             GreenfootImage title = new GreenfootImage("ステージ1", 120, Color.RED, new Color(0, 0, 0, 0));
@@ -58,8 +59,11 @@ public class stage1 extends World
             GreenfootImage title2 = new GreenfootImage("完", 300, Color.RED, new Color(0, 0, 0, 0));
             getBackground().drawImage(title2, 710, (getHeight()-title.getHeight())/4);
             
+        showText( ""+time, 100, 100 );
+        if(time == 0){
             Greenfoot.stop();
         }
     }
     
+ }
 }
