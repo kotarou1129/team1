@@ -57,23 +57,13 @@ dependency8.type=UsesDependency
 dependency9.from=stage2
 dependency9.to=teki2
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-height=1056
-package.numDependencies=12
-package.numTargets=9
-=======
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=1047
+editor.fx.0.height=1056
+editor.fx.0.width=1936
+editor.fx.0.x=-8
+editor.fx.0.y=-8
+height=28
 package.numDependencies=16
-package.numTargets=11
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+package.numTargets=10
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -95,23 +85,13 @@ target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
-<<<<<<< HEAD
-=======
 target10.height=50
-target10.name=stage1
+target10.name=murabito
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
-target11.height=50
-target11.name=murabito
-target11.showInterface=false
-target11.type=ClassTarget
-target11.width=80
-target11.x=0
-target11.y=0
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
 target2.height=50
 target2.name=teki1
 target2.showInterface=false
@@ -127,69 +107,49 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=stage3
+target4.name=Select
 target4.showInterface=false
 target4.type=ClassTarget
-target4.width=80
+target4.width=100
 target4.x=0
 target4.y=0
 target5.height=50
-<<<<<<< HEAD
-target5.name=farmer
-=======
-target5.name=Select
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+target5.name=stage3
 target5.showInterface=false
 target5.type=ClassTarget
-target5.width=100
+target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-<<<<<<< HEAD
-target6.name=stage2
-=======
-target6.name=stage3
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+target6.name=farmer
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-<<<<<<< HEAD
-target7.name=MyWorld
-=======
-target7.name=farmer
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+target7.name=stage2
 target7.showInterface=false
 target7.type=ClassTarget
-target7.width=80
+target7.width=100
 target7.x=0
 target7.y=0
 target8.height=50
-<<<<<<< HEAD
-target8.name=stage1
-=======
-target8.name=stage2
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+target8.name=MyWorld
 target8.showInterface=false
 target8.type=ClassTarget
-target8.width=100
+target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
-<<<<<<< HEAD
-target9.name=murabito
-=======
-target9.name=MyWorld
->>>>>>> 2380f6b98f80f07b1b4ad7f75d2b3b046b427a02
+target9.name=stage1
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=1936
+width=160
 world.lastInstantiated=MyWorld
 xPosition=0
-yPosition=107
+yPosition=0
