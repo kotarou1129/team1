@@ -8,7 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    private int timecount = 1000;
+
+    public int click_flag = 0;
+
+    
+
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -21,6 +25,19 @@ public class MyWorld extends World
     }
     public void act()
     {
+       if(click_flag==0){
+           GreenfootImage title = new GreenfootImage("かけぬけろ！せいきまつ！！", 120, Color.RED, new Color(0, 0, 0, 0));
+           getBackground().drawImage(title, (getWidth()-title.getWidth())/2, (getHeight()-title.getHeight())/2);
+           GreenfootImage disc = new GreenfootImage("開始するにはEnterを押してください...", 60, Color.YELLOW, new Color(0, 0, 0, 0));
+           getBackground().drawImage(disc, (getWidth()-disc.getWidth())/2, (getHeight()-disc.getHeight())/2+200);
+           
+           if(Greenfoot.isKeyDown( "enter" )){
+               click_flag=1;
+               World select1 = new Select();
+               Greenfoot.setWorld( select1 );
+            }
+       } 
+
        //noumin
        if( Greenfoot.isKeyDown( "1" ) ){
         World game1 = new stage1();
@@ -36,12 +53,7 @@ public class MyWorld extends World
         World game3 = new stage3();
         Greenfoot.setWorld( game3 );
         }
-       timecount--;
-        showText( ""+timecount, 825, 450 );
-        if(timecount == 0){
-            showText( "TIME OVER", 400, 200 );            
-            Greenfoot.stop();
-        }
+
     }
     
     

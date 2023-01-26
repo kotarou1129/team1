@@ -46,9 +46,12 @@ public class stage2 extends World
     {
         time--;
         showText( ""+time, 825, 450 );
-        if(time == 0){
-            showText( "ステージ2", 825, 200 ); 
-            showText( "完", 825, 450 ); 
+        if(time == 000){
+            GreenfootImage title = new GreenfootImage("ステージ２", 120, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(title, (getWidth()-title.getWidth())/2, 550);
+            GreenfootImage title2 = new GreenfootImage("完", 300, Color.RED, new Color(0, 0, 0, 0));
+            getBackground().drawImage(title2, 710, (getHeight()-title.getHeight())/4);
+            
             Greenfoot.stop();
         }
     }
