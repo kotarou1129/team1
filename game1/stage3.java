@@ -44,7 +44,7 @@ public class stage3 extends World
         public void act()
     {
         time--;
-        showText( ""+time, 100, 100 );
+        showText( ""+time, 825, 450 );
         if(time == 0){
 
             GreenfootImage title = new GreenfootImage("ステージ３", 120, Color.RED, new Color(0, 0, 0, 0));
